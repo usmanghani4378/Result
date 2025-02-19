@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blogspot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #ff4e50, #1fddff);
+            animation: gradientBG 3s infinite alternate ease-in-out;
+            overflow: hidden;
+            padding: 20px;
+        }
+        @keyframes gradientBG {
+            50% { background: linear-gradient(45deg, #ff4e50, #1fddff); }
+            100% { background: linear-gradient(45deg, #1fddff, #ff4e50); }
+        }
+        .content-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            width: 100%;
+            max-width: 800px;
+            overflow-x: auto;
+        }
+        h1 {
+            color: white;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.3);
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid white;
+            color: white;
+            text-align: center;
+        }
+        th {
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h3><strong>Boys</strong></h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>RNO</th><th>Form No</th><th>Name</th><th>Exam Centre & Group</th><th>Shift</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>204586</td><td>2510098440</td><td>Usman Ghani</td><td>722-Govt. Millat Associate College Mumtazabad, Multan</td><td>Second</td></tr>
+                <tr><td>204753</td><td>2510098441</td><td>Subhan Ali</td><td>723-Govt. Jauhar High School, Multan (Hall)</td><td>Second</td></tr>
+                <tr><td>204519</td><td>2510098443</td><td>Muhammad Aqib</td><td>722-Govt. Millat Associate College Mumtazabad, Multan</td><td>Second</td></tr>
+                <tr><td>204569</td><td>2510098444</td><td>Muhammad Zeeshan</td><td>722-Govt. Millat Associate College Mumtazabad, Multan</td><td>Second</td></tr>
+                <tr><td>153479</td><td>2510098445</td><td>Muhammad Anees Khurram</td><td>730-Govt. High School Rangeel Pur, Multan</td><td>First</td></tr>
+                <tr><td>154252</td><td>2510098565</td><td>Muhammad Zaeem</td><td>743-Govt. College of Technology (Boys), Textile Block, Multan</td><td>First</td></tr>
+            </tbody>
+        </table>
+        <hr/>
+        <h3><strong>Girls</strong></h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>RNO</th><th>Form No</th><th>Name</th><th>Exam Centre & Group</th><th>Shift</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>199524</td><td>2510123953</td><td>Kinza Noor</td><td>645-Govt. M.C. Girls High School Bagh Begi, Multan</td><td>Second</td></tr>
+                <tr><td>146008</td><td>2510123950</td><td>Maira Tahir</td><td>632-Govt. Girls H.S.S. Chah Bohar Wala, Multan (Old Campus)</td><td>First</td></tr>
+                <tr><td>147099</td><td>2510123941</td><td>Kanza Naveed</td><td>645-Govt. M.C. Girls High School Bagh Begi, Multan</td><td>First</td></tr>
+                <tr><td>198676</td><td>2510123947</td><td>Armish Ramzan</td><td>634-Govt. Girls High School District Jail Road, Multan</td><td>Second</td></tr>
+                <tr><td>199505</td><td>2510123957</td><td>Fizah Khalid</td><td>645-Govt. M.C. Girls High School Bagh Begi, Multan</td><td>Second</td></tr>
+                <tr><td>146771</td><td>2510123959</td><td>Minahil Fatima</td><td>641-Govt. Girls High School Willayatabad No.2, Multan</td><td>First</td></tr>
+                <tr><td>146000</td><td>2510123963</td><td>Khadija Shahid</td><td>632-Govt. Girls H.S.S. Chah Bohar Wala, Multan (Old Campus)</td><td>First</td></tr>
+                <tr><td>147105</td><td>2510123938</td><td>Kinza Fatima</td><td>645-Govt. M.C. Girls High School Bagh Begi, Multan</td><td>First</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
